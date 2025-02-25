@@ -1,6 +1,6 @@
 <?php
 
-namespace SeriousDesign\ProjectManagementBundle;
+namespace Seriousdesign\ProjectManagementBundle;
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 

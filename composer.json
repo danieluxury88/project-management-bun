@@ -29,3 +29,7 @@
         }
     }
 }
+
+Case mismatch between loaded and declared class names:
+"Seriousdesign\ProjectManagementBundle\ProjectManagementBundle" vs
+"SeriousDesign\ProjectManagementBundle\ProjectManagementBundle".
