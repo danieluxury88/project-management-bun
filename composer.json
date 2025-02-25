@@ -1,0 +1,19 @@
+{
+    "name": "seriousdesign/project-management-bundle",
+    "description": "Project Management Bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Seriousdesign\\ProjectManagementBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seriousDesign"
+        }
+    ]
+}
