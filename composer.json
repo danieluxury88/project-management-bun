@@ -1,10 +1,15 @@
 {
     "name": "seriousdesign/project-management-bundle",
-    "description": "Project Management Bundle",
+    "description": "Project Management Bundle for Symfony",
     "type": "symfony-bundle",
     "minimum-stability": "stable",
     "require": {
-        "symfony/framework-bundle": "^7.2"
+        "symfony/framework-bundle": "^6.4 || ^7.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^6.4 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0",
+        "symfony/config": "^6.4 || ^7.0"
     },
     "license": "MIT",
     "autoload": {
@@ -14,7 +19,13 @@
     },
     "authors": [
         {
-            "name": "seriousDesign"
+            "name": "seriousDesign",
+            "email": "info@seriousdesign.net"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
 }
