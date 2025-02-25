@@ -2,7 +2,7 @@
     "name": "seriousdesign/project-management-bundle",
     "description": "Project Management Bundle",
     "type": "symfony-bundle",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "symfony/framework-bundle": "^7.2"
     },
